@@ -22,7 +22,7 @@ Prioritises obstacle avoidance while defaulting to line following when the path 
 Mode 4 – Bug Algorithm (Goal Seeking + Wall Following)
 Implements a simplified bug algorithm that switches between goal-seeking and wall-following behaviour when obstacles are encountered.
 
-Hardware Components
+Hardware Components:
 
 Arduino microcontroller
 
@@ -38,8 +38,7 @@ Buzzer for obstacle alerts
 
 Mobile robot chassis and power supply
 
-Pin Configuration
-Motor Driver
+Pin Configuration:
 
 Right Motor Direction: Pins 11, 12
 
@@ -49,8 +48,6 @@ Right Motor PWM: Pin 6
 
 Left Motor PWM: Pin 5
 
-Sensors and Actuators
-
 Ultrasonic Trigger: Pin 10
 
 Ultrasonic Echo: Pin 2
@@ -59,13 +56,9 @@ Servo Motor: Pin 9
 
 Buzzer: Pin 13
 
-IR Sensor Array
-
 IR1–IR5: A1–A5
 
-Control Parameters
-
-Key parameters used to tune robot behaviour:
+Control Parameters:
 
 NORMAL_SPEED – Default forward speed
 
@@ -81,21 +74,21 @@ Servo sweep angles for environmental scanning
 
 These values can be adjusted to suit different environments and surfaces.
 
-Code Structure
+Code Structure:
 
-Motor control functions
+Motor control functions,
 moveForward(), moveBackward(), turnLeft(), turnRight(), curveLeft(), curveRight(), stopMotors()
 
-Sensor functions
+Sensor functions,
 measureDistance() – Ultrasonic distance measurement
 scanEnvironment() – Servo-based left/right scanning
 
-Navigation logic
+Navigation logic,
 obstacleAvoidance()
 lineFollowing()
 wallFollowing()
 combinedMode()
 bugAlgorithm()
 
-Utility functions
+Utility functions,
 buzz() – Audible obstacle alert
