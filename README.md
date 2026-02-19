@@ -1,12 +1,10 @@
 Robot Assembly and Navigation Project
-Overview
 
+Overview:
 This project implements an Arduino-based autonomous robot capable of multiple navigation behaviours using sensor-driven reactive control. The robot integrates an ultrasonic distance sensor mounted on a servo, a 5-channel infrared sensor array, and PWM-controlled DC motors to navigate its environment autonomously.
-
 The system supports several operational modes including obstacle avoidance, line following, wall following, and combined navigation strategies, demonstrating practical embedded systems design and autonomous robotics principles.
 
-Navigation Modes
-
+Navigation Modes:
 The robot operates using selectable control modes defined in the code:
 
 Mode 0 – Obstacle Avoidance
