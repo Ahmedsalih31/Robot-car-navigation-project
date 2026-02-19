@@ -5,7 +5,7 @@ This project implements an Arduino-based autonomous robot capable of multiple na
 The system supports several operational modes including obstacle avoidance, line following, wall following, and combined navigation strategies, demonstrating practical embedded systems design and autonomous robotics principles.
 
 Navigation Modes:
-The robot operates using selectable control modes defined in the code:
+
 
 Mode 0 – Obstacle Avoidance
 Uses ultrasonic distance sensing to detect obstacles ahead and dynamically selects a clear direction by scanning left and right with a servo-mounted sensor.
